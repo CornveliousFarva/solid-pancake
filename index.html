@@ -9,10 +9,24 @@
     </head>
     <body>
         <h1>Roman Roy Quote Generator</h1>
-        <p>CW: profanity</p>
-       <div class="outer-container">
-            <p id="quote"></p>
-            <button id="generate">Generate</button>
-       </div>
+        <p>CW: strong profanity</p>
+        <!-- Quote Container -->
+        <div class="container">
+             <!-- Quote to be Displayed Here -->
+            <h1>
+            <i class="fas fa-quote-left"></i>
+            <span class="quote" id="quote"></span>
+            <i class="fas fa-quote-right"></i>
+            </h1>
+
+            <hr/>
+            <div class="buttons">
+                <!--Add an onclick event on 'next quote' button. Upon the click of a button, a new random quote is generated-->
+                <button class="next" onclick="getNewQuote()">Next quote</button>
+            </div>
+        </div>
+
+        <!--LINK CUSTOM JS FILE-->
+        <script src="script.js"></script>
     </body>
 </html>

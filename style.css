@@ -26,3 +26,13 @@ body{
     margin: 10px;
 }
 
+.fa-quote-left, .fa-quote-right{
+    font-size: 35px;
+    color: rgb(179, 0, 0);
+}
+
+.quote{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}

@@ -7,3 +7,5 @@ const generateQuote = function(){
     ]
 
 }
+
+// As I'm pulling from a single character rather than various sources, I'm having to add the quotes in manually.

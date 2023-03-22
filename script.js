@@ -1,8 +1,9 @@
 const generateQuote = function(){
     const quotes = [
-        {quote: "A shit show at the fuck factory"},
-        {quote: "He said to his son as the sexual assault allegations came rolling in"},
-        {quote: "Well, fuck me to your fucking fuck"},
+        {quote: "Hey, hey motherfuckers!"},
+        {quote: "I’m thankful I was not born a Siamese twin."},
+        {quote: "Guess who didn’t kill anyone but maybe only lost a couple of thumbs?"},
+        {quote: "This is what it looks like when you resolve all your issues."}
         // {quote: ""},
     ]
 

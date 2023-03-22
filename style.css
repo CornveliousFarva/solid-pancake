@@ -18,6 +18,7 @@ div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 30px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.6);
     border-radius: 15px;
@@ -43,8 +44,7 @@ hr{
     width: 100%;
     display: flexbox;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 9px;
+    align-items: flex-start;
 }
 
 .generate{
@@ -52,7 +52,7 @@ hr{
     border-radius: 5px;
     cursor: pointer;
     padding: 10px;
-    margin-top: 5px;
+    margin-top: 25px;
     font-weight: bold;
     color: whitesmoke;
     background-image: linear-gradient(to right bottom, gray, #ffedbca8);
@@ -61,3 +61,15 @@ hr{
 .container:hover{
     box-shadow: 0 10px 10px rgb(230, 0, 0);
 }
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding-right: 25px;
+}
+
